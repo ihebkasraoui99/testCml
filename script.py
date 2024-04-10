@@ -17,7 +17,7 @@ from sklearn_features.transformers import DataFrameSelector
 ## skelarn -- models
 # from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
-# from sklearn.linear_model import LogisticRegression
+# from sklearn.linear_model import LogisticRegressi
 
 ## sklearn -- metrics
 from sklearn.metrics import f1_score, confusion_matrix
