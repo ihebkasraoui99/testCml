@@ -22,9 +22,6 @@ from sklearn.ensemble import RandomForestClassifier
 ## sklearn -- metrics
 from sklearn.metrics import f1_score, confusion_matrix
 
-
-## --------------------- Data Preparation ---------------------------- ##
-
 ## Read the Dataset
 TRAIN_PATH = os.path.join(os.getcwd(), 'dataset.csv')
 df = pd.read_csv(TRAIN_PATH)
